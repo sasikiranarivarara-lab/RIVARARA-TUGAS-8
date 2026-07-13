@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+ 
+<body>
+  <!-- Header -->
+  <header>
+    <h1>riva rara website</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#galery">Galery</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#bukutamu">Buku Tamu</a></li>
+      </ul>
+    </nav>
+  </header>
+ 
+  <!-- Main Content -->
+  <main>
+    <section id="home">
+      <h2>Selamat Datang di Website Saya</h2>
+      <p>Website ini berisi informasi mengenai profil, aktivitas perkuliahan, pengalaman kampus,
+        serta hobi dan keseharian saya sebagai mahasiswi Pendidikan Matematika.</p>
+      <a href="#profile" class="btn"> Lihat Profil </a>
+    </section>
+ 
+    <section id="about">
+      <h2>Tentang Saya</h2>
+      <p>
+        Website ini dibuat sebagai media informasi dan dokumentasi pribadi yang memuat profil,
+        aktivitas perkuliahan, pengalaman organisasi, serta hobi dan minat saya sehari-hari.
+        Melalui website ini, pengunjung dapat mengenal lebih dekat siapa saya, apa yang sedang
+        saya pelajari, dan kegiatan apa saja yang saya jalani selama menjadi mahasiswi.
+      </p>
+      <p>
+        Selain sebagai sarana perkenalan, website ini juga berfungsi sebagai media dokumentasi
+        kegiatan kampus, galeri foto, video pembelajaran, serta ruang untuk berbagi cerita
+        mengenai perjalanan saya di dunia perkuliahan.
+      </p>
+      <p>
+        Diharapkan website ini dapat menjadi wadah yang bermanfaat untuk membangun relasi,
+        berbagi pengalaman, serta menjadi kenang-kenangan digital selama menempuh pendidikan
+        di kampus.
+      </p>
+    </section>
+ 
+    <section id="profile">
+      <h2>Profile</h2>
+      <div class="profile-container">
+        <div class="profile-photo">
+          <img src="Aset/gambar/poto sendiri.jpeg" alt="Foto Profil" />
+        </div>
+        <h3>Riva Rara Sasikirana</h3>
+        <p>
+          Mahasiswi Program Studi Pendidikan Matematika, Universitas Muhammadiyah Kotabumi (UMKO).
+          Memiliki ketertarikan pada dunia pendidikan, khususnya dalam mengembangkan cara mengajar
+          matematika yang menyenangkan dan mudah dipahami oleh siswa.
+        </p>
+        <p>
+          Di luar perkuliahan, saya memiliki hobi menyanyi dan memasak. Menyanyi menjadi cara saya
+          melepas penat setelah padatnya jadwal kuliah, sedangkan memasak adalah kegiatan yang saya
+          nikmati karena memberi ruang untuk berkreasi sekaligus melatih kesabaran, tak jauh berbeda
+          dengan proses memahami sebuah soal matematika hingga menemukan penyelesaiannya.
+        </p>
+        <p>
+          Sebagai calon pendidik, saya percaya bahwa belajar tidak harus selalu serius. Kombinasi
+          antara logika matematika dan kreativitas dari bernyanyi maupun memasak membantu saya
+          melihat pembelajaran dari sudut pandang yang lebih luas dan menyenangkan.
+        </p>
+      </div>
+    </section>
+ 
+    <section id="galery">
+      <h2>Galeri Kegiatan</h2>
+      <ul>
+        <li>
+          <figure class="foto-card">
+            <span class="caption1">Foto 1</span>
+            <img src="Aset/gambar/poto kelas rame-rame.jpeg" alt="Foto studio" />
+            <figcaption>
+              <h4>Foto studio</h4>
+              <p>foto studio pmtk angkatan 23</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="foto-card">
+            <span class="caption2">Foto 2</span>
+            <img src="Aset/gambar/poto ber 3.jpeg" alt="foto studio lagi" />
+            <figcaption>
+              <h4>foto studio</h4>
+              <p>foto bareng deva,dan siti.</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="foto-card">
+            <span class="caption1">Foto 3</span>
+            <img src="Aset/gambar/poto bazar.jpeg" alt="kegiatan bazar" />
+            <figcaption>
+              <h4>kegiatan bazar</h4>
+              <p>kegiatan bazar di umko yang di adakan oleh mahasiswa pmtk.</p>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+ 
+    <section id="video">
+      <h2>Koleksi Video</h2>
+      <ul>
+        <li>
+          <figure>
+            <video controls width="100" height="250">
+              <source src="Aset/video/vidio 0,5.mp4" type="video/mp4" />
+            </video>
+            <figcaption>
+              <p>Video bareng temen -temen pmtk</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <video controls width="100" height="250">
+              <source src="Aset/video/vidio ramean.mp4" type="video/mp4" />
+            </video>
+            <figcaption>
+              <p>vidio saya poto studui bareng temen kelas</p>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+  </main>
+ 
+  <section id="bukutamu">
+    <h2>Buku Tamu</h2>
+ 
+    <div class="guestbook">
+      <form action="#" method="post">
+        <div class="form-group">
+          <label>Nama Lengkap</label>
+          <input type="text" placeholder="Riva Rara Sasikirana" required />
+        </div>
+ 
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="sasikiranarivarara@gmail.com" required />
+        </div>
+ 
+        <div class="form-group">
+          <label>Instansi</label>
+          <input type="text" placeholder="Masukkan instansi" />
+        </div>
+ 
+        <div class="form-group">
+          <label>Pesan</label>
+          <textarea rows="5" placeholder="Tulis pesan Anda"></textarea>
+        </div>
+ 
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+ 
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 My Website. All rights reserved.</p>
+    <p>
+      <a href="#" target="_blank">Instagram</a>
+      <a href="#" target="_blank">Tiktok</a>
+      <a href="#" target="_blank">youtube</a>
+    </p>
+    <p>Contact: <a href="sasikiranarivarara@gmial.com">sasikiranarivarara@gmial.com</a></p>
+  </footer>
+</body>
+</html>
